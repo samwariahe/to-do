@@ -31,7 +31,7 @@ class App extends Component {
     return (
       <div className="App container ">
         <h1> Welcome to React</h1>
-
+        <h2>Enjoy!</h2>
         <Teams deleteTeam={this.deleteTeam} teams={this.state.teams} />
         <AddTeam addTeam={this.addTeam} />
       </div>
